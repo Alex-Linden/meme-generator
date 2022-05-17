@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    color: black;
+    background-color: lightgray;
+}
+
+input{
+    margin: auto;
+    padding: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 75%;
+
+}
+
+label{
+    margin-top: 10px;
+    margin-left: auto;
+    display: block;
+    font-weight: bold;
+    font-size: large;
+}
+button{
+    margin: auto;
+    font-size: medium;
+    font-weight: bold;
+    background-color: lightblue;
+    border: 2px solid black;
+}
+.meme {
+    position:relative;
+    max-width: 500px;
+    margin-right: 1em;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.meme .top-text {
+    position: absolute;
+    top: 10px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.meme .bottom-text {
+    position: absolute;
+    background-color: transparent;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+
+}
